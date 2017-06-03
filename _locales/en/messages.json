@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "My AngulatJS App",
+    "description": "The app name"
+  },
+  "extName": {
+    "message": "AngularJS Ext",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "An AngularJS Extension description.",
+    "description": "Extension description"
+  },
+  "hello": {
+    "message": "hello!",
+    "description": "-"
+  },
+  "world": {
+    "message": "world!",
+    "description": "-"
+  }
+}
