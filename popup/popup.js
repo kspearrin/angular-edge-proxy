@@ -12,7 +12,9 @@ myApp.controller('myController', function ($scope){
     // works
     $scope.localHello = locali18nService.hello;
     // DOES NOT work in Edge
-    $scope.bgHello = bg.myi18nService.hello;
+    $scope.bgProxyHello = bg.myProxyi18nService.hello;
+    // works
+    $scope.bgFunctionHello = bg.myFunctioni18nService.get('hello');
 
     $scope.firstName = "John";
     $scope.lastName = "Doe";
